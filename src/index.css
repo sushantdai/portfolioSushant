@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --color-surface: oklch(0.99 0.002 264);
+  --color-surface-dark: oklch(0.14 0.02 264);
+  --color-muted: oklch(0.52 0.02 264);
+  --color-accent: oklch(0.55 0.18 250);
+  --color-accent-hover: oklch(0.48 0.2 250);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
