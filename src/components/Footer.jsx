@@ -42,14 +42,6 @@ export default function Footer() {
             >
               LinkedIn
             </a>
-            <a
-              href={profile.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white"
-            >
-              GitHub
-            </a>
           </nav>
         </div>
         <div className="mt-8 flex justify-center sm:justify-end">

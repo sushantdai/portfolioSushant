@@ -42,6 +42,31 @@ export default function Blog() {
             </li>
           ))}
         </ul>
+
+        {/* Read all blog link */}
+        <div className="mt-12 flex justify-center">
+          <a
+            href="https://sushantbhatta7.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 rounded-xl border-2 border-[var(--color-accent)] bg-white px-6 py-3 font-semibold text-[var(--color-accent)] transition hover:bg-[var(--color-accent)] hover:text-white dark:bg-slate-950 dark:hover:bg-[var(--color-accent)]"
+          >
+            Read all blogs
+            <svg
+              className="h-5 w-5 transition group-hover:translate-x-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
   )

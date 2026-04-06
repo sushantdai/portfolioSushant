@@ -1,12 +1,55 @@
 import { useState } from 'react'
+import emailjs from '@emailjs/browser'
 import { profile } from '../data/content'
+
+// Initialize EmailJS
+emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
 
 export default function Contact() {
   const [sent, setSent] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    message: ''
+  })
 
-  function handleSubmit(e) {
+  function handleChange(e) {
+    const { name, value } = e.target
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }))
+  }
+
+  async function handleSubmit(e) {
     e.preventDefault()
-    setSent(true)
+    setLoading(true)
+    setError(null)
+
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          to_email: 'sushantbhatta7@gmail.com',
+          from_name: formData.name,
+          from_email: formData.name, // Will be replaced by EmailJS with reply-to
+          phone: formData.phone || 'Not provided',
+          message: formData.message
+        }
+      )
+      setSent(true)
+      setFormData({ name: '', phone: '', message: '' })
+      // Reset success message after 5 seconds
+      setTimeout(() => setSent(false), 5000)
+    } catch (err) {
+      setError('Failed to send message. Please try again.')
+      console.error('EmailJS error:', err)
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -41,6 +84,8 @@ export default function Contact() {
                 type="text"
                 required
                 autoComplete="name"
+                value={formData.name}
+                onChange={handleChange}
                 className="mt-1 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none ring-[var(--color-accent)]/0 transition focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-accent)]/30 dark:border-slate-600 dark:bg-slate-900 dark:text-white"
               />
             </div>
@@ -53,6 +98,8 @@ export default function Contact() {
                 name="phone"
                 type="tel"
                 autoComplete="tel"
+                value={formData.phone}
+                onChange={handleChange}
                 className="mt-1 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-accent)]/30 dark:border-slate-600 dark:bg-slate-900 dark:text-white"
               />
             </div>
@@ -65,18 +112,26 @@ export default function Contact() {
                 name="message"
                 required
                 rows={4}
+                value={formData.message}
+                onChange={handleChange}
                 className="mt-1 w-full resize-y rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-accent)]/30 dark:border-slate-600 dark:bg-slate-900 dark:text-white"
               />
             </div>
             <button
               type="submit"
-              className="w-full rounded-xl bg-[var(--color-accent)] py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[var(--color-accent-hover)] sm:w-auto sm:px-8"
+              disabled={loading}
+              className="w-full rounded-xl bg-[var(--color-accent)] py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[var(--color-accent-hover)] disabled:opacity-50 disabled:cursor-not-allowed sm:w-auto sm:px-8"
             >
-              Send message
+              {loading ? 'Sending...' : 'Send message'}
             </button>
             {sent && (
               <p className="text-sm text-emerald-600 dark:text-emerald-400" role="status">
-                Thanks—connect the form to a backend to deliver this for real. Demo only.
+                ✓ Message sent successfully! I'll get back to you soon.
+              </p>
+            )}
+            {error && (
+              <p className="text-sm text-red-600 dark:text-red-400" role="alert">
+                {error}
               </p>
             )}
           </form>
