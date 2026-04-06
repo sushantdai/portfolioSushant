@@ -2,7 +2,7 @@
 
 export const profile = {
   name: 'Sushant Bhatta',
-  title: 'Business Analyst',
+  title: 'Marketing Analyst',
   tagline:
     'I translate business problems into clear requirements, data-backed insights, and delivery roadmaps—bridging stakeholders, product, and engineering with structured analysis and communication.',
   location: 'Open to remote · hybrid · on-site',
