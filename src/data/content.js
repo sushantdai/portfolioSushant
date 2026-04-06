@@ -1,5 +1,4 @@
 /** Replace with your details, images, and links before deploying. */
-import profileImg from '../assets/sushant.jpg'
 
 export const profile = {
   name: 'Sushant Bhatta',
@@ -9,7 +8,7 @@ export const profile = {
   location: 'Open to remote · hybrid · on-site',
   email: 'sushantbhatta7@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sushantbhatta7/',
-  profileImage: profileImg,
+  profileImage: '/sushant.jpg',
 }
 
 export const carouselSlides = [
