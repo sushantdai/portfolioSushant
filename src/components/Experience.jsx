@@ -41,9 +41,22 @@ export default function Experience() {
                     {job.period}
                   </time>
                 </div>
-                <p className="mt-4 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-                  {job.summary}
-                </p>
+                <div>
+                  {Array.isArray(job.summary) ? (
+                    <ul className="mt-4 space-y-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                      {job.summary.map((point, i) => (
+                        <li key={i} className="flex gap-3">
+                          <span className="text-[var(--color-accent)] font-semibold">•</span>
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-4 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+                      {job.summary}
+                    </p>
+                  )}
+                </div>
                 {index < experience.length - 1 && (
                   <span className="sr-only">Next role below</span>
                 )}

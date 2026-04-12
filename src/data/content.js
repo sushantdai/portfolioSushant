@@ -27,10 +27,10 @@ export const carouselSlides = [
 ]
 
 export const highlights = [
-  { value: '5+', label: 'Years in BA / analytics roles', sub: 'Agile · waterfall hybrid' },
-  { value: '20+', label: 'Cross-functional initiatives', sub: 'From discovery to rollout' },
-  { value: '10+', label: 'Tools & platforms', sub: 'Jira · Confluence · SQL · BI' },
-  { value: '∞', label: 'Curiosity for the problem', sub: 'Structured thinking · clarity' },
+  { value: '4+', label: 'Years in Analytics & Marketing Experience', sub: 'End-to-end analysis • Data → decision' },
+  { value: '10+', label: 'Campaigns & Data Projects', sub: 'From analysis → business decisions' },
+  { value: '10+', label: 'Analytics Tools & Platforms', sub: 'SQL • Tableau • SPSS • Power BI • R' },
+  { value: '180% ROI', label: '+25–40% Engagement Growth', sub: '10M+ records analyzed (<1% error)' },
 ]
 
 export const aboutParagraphs = [
@@ -43,16 +43,16 @@ export const aboutParagraphs = [
 
 export const skills = [
   {
-    title: 'Requirements & delivery',
-    items: ['User stories & AC', 'Backlog refinement', 'UAT planning', 'Release notes'],
+    title: 'Analytics & Modeling',
+    items: ['Segmentation', 'Regression / ANOVA', 'Campaign Analysis', 'Predictive Modeling'],
   },
   {
-    title: 'Analysis & data',
-    items: ['SQL queries', 'Process modeling', 'KPI design', 'Excel / Sheets'],
+    title: 'Data & Tools',
+    items: ['SQL', 'Tableau / Power BI', 'Excel (Advanced)', 'Google Analytics'],
   },
   {
-    title: 'Collaboration',
-    items: ['Workshops', 'Stakeholder mgmt', 'RACI', 'Status reporting'],
+    title: 'Business Impact',
+    items: ['KPI Design', 'A/B testing', 'Customer Insights', 'Data Storytelling', 'Report Writing'],
   },
 ]
 
@@ -61,8 +61,11 @@ export const experience = [
     company: 'Golden City Wholesale LLC',
     role: 'Sales and Social Media Marketing Intern',
     period: '2025 — 2026',
-    summary:
-      'Supported client engagements with research, workshop notes, and process documentation; built reporting packs for leadership reviews.',
+    summary: [
+      'Analyzed campaign performance (CTR, conversions, engagement), improving engagement by 25%',
+      'Identified targeting and messaging gaps; optimized content strategy across platforms',
+      'Built structured reports and dashboards to support marketing decisions.'
+    ]
   },
    {
     company: 'Umanga Nepal',
