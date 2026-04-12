@@ -72,21 +72,23 @@ export const experience = [
     role: 'Program Coordinator',
     period: '2021 — 2023',
     type: 'Full time',
-    summary:
-      'Mapped lending and compliance workflows; delivered BRDs and use cases; coordinated testing cycles and training materials for operations teams.',
+    summary:[
+      'Led 10+ initiatives (500+ participants), increasing engagement by 20%',
+      'Conducted behavioral and feedback analysis to identify participation gaps',
+      'Improved outreach strategy, contributing to 40% growth in reach'
+    ]
   },
   {
     company: 'Cloud Factory',
     role: 'Data Specialist',
     period: '2019 — 2023',
     type: 'Part time',
-    summary:
-      'Lead discovery for customer-facing products; own requirement docs, prioritization support, and sprint-ready backlog with product and engineering.',
+    summary:['Processed and validated 10M+ records with <1% error rate',
+'Improved data quality workflows and dataset structure for analytics use',
+'Enabled faster and more reliable downstream analysis'
+] 
   },
- 
- 
 ]
-
 export const projects = [
   {
     id: 'rapidminer',
