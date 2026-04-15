@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { profile } from '../data/content'
 
 // Initialize EmailJS
@@ -65,9 +68,6 @@ export default function Contact() {
         >
           Contact
         </h2>
-        <p className="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">
-          For opportunities, collaborations, or questions—reach out. Wire this form to Formspree, Resend, or your API when you deploy.
-        </p>
 
         <div className="mt-12 grid gap-12 lg:grid-cols-2 lg:gap-16">
           <form
@@ -150,9 +150,7 @@ export default function Contact() {
                   href={`mailto:${profile.email}`}
                   className="flex items-start gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4 transition hover:border-[var(--color-accent)]/40 dark:border-slate-700 dark:bg-slate-900/50"
                 >
-                  <span className="text-xl" aria-hidden>
-                    ✉️
-                  </span>
+                  <FontAwesomeIcon icon={faEnvelope} className="text-xl text-[var(--color-accent)]" />
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                       Email
@@ -168,9 +166,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4 transition hover:border-[var(--color-accent)]/40 dark:border-slate-700 dark:bg-slate-900/50"
                 >
-                  <span className="text-xl" aria-hidden>
-                    💼
-                  </span>
+                  <FontAwesomeIcon icon={faLinkedin} className="text-xl text-[var(--color-accent)]" />
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
                       LinkedIn

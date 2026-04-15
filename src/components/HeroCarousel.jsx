@@ -2,12 +2,14 @@ import { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import { carouselSlides, profile } from '../data/content'
+import ResumePreview from './ResumePreview'
 
 export default function HeroCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' }, [
     Autoplay({ delay: 5200, stopOnInteraction: false }),
   ])
   const [selected, setSelected] = useState(0)
+  const [showResumePreview, setShowResumePreview] = useState(false)
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return
@@ -55,22 +57,25 @@ export default function HeroCarousel() {
           <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             {profile.name}
           </h1>
-          <p className="mt-2 max-w-2xl text-lg text-slate-200 sm:text-xl">{profile.title}</p>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-slate-300 sm:text-base">
+          <p className="mt-4 max-w-3xl text-xl font-semibold text-[var(--color-accent)] sm:text-2xl lg:text-3xl">
+            {profile.title}
+          </p>
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-200 sm:text-lg">
             {profile.tagline}
           </p>
-          <p className="mt-2 text-sm text-slate-400">{profile.location}</p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href="/resume.pdf"
-              download
-              className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-900 shadow-lg transition hover:bg-slate-100"
+          <p className="mt-6 text-sm font-medium text-slate-300 sm:text-base">
+            📍 {profile.location}
+          </p>
+          <div className="mt-10 flex flex-wrap gap-3">
+            <button
+              onClick={() => setShowResumePreview(true)}
+              className="inline-flex items-center justify-center rounded-xl bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-lg transition hover:bg-slate-100"
             >
-              Download resume (PDF)
-            </a>
+              Preview resume
+            </button>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center rounded-xl border border-white/30 bg-white/5 px-5 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-xl border border-white/30 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/10"
             >
               Contact me
             </a>
@@ -92,6 +97,8 @@ export default function HeroCarousel() {
           />
         ))}
       </div>
+
+      <ResumePreview isOpen={showResumePreview} onClose={() => setShowResumePreview(false)} />
     </section>
   )
 }

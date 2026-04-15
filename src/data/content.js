@@ -2,9 +2,9 @@
 
 export const profile = {
   name: 'Sushant Bhatta',
-  title: 'Marketing Analyst',
+  title: 'Marketing Analytics & Data Analyst',
   tagline:
-    'I translate business problems into clear requirements, data-backed insights, and delivery roadmaps—bridging stakeholders, product, and engineering with structured analysis and communication.',
+    'Driving data-backed marketing decisions that improve ROI, engagement, and customer targeting. Delivered 180% campaign ROI, 25–40% engagement growth, and insights from 10M+ records. Skilled in campaign analytics, customer segmentation, statistical modeling, and dashboards.',
   location: 'Open to remote · hybrid · on-site',
   email: 'sushantbhatta7@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sushantbhatta7/',
