@@ -35,7 +35,7 @@ export default function HeroCarousel() {
         <div className="flex">
           {carouselSlides.map((slide, i) => (
             <div key={slide.src} className="relative min-w-0 shrink-0 grow-0 basis-full">
-              <div className="relative aspect-[21/9] min-h-[280px] sm:min-h-[320px] md:aspect-[21/8] md:min-h-[360px]">
+              <div className="relative aspect-auto min-h-[400px] sm:min-h-[480px] md:aspect-[21/8] md:min-h-[360px]">
                 <img
                   src={slide.src}
                   alt={slide.alt}
@@ -53,29 +53,29 @@ export default function HeroCarousel() {
       </div>
 
       <div className="pointer-events-none absolute inset-0 flex items-center">
-        <div className="pointer-events-auto mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-          <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+        <div className="pointer-events-auto mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 py-8 sm:py-0">
+          <h1 className="font-display text-2xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
             {profile.name}
           </h1>
-          <p className="mt-4 max-w-3xl text-xl font-semibold text-[var(--color-accent)] sm:text-2xl lg:text-3xl">
+          <p className="mt-3 max-w-3xl text-base font-semibold text-[var(--color-accent)] sm:text-xl md:text-2xl lg:text-3xl">
             {profile.title}
           </p>
-          <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-200 sm:text-lg">
+          <p className="mt-4 max-w-2xl text-xs leading-relaxed text-slate-200 sm:text-base md:text-lg">
             {profile.tagline}
           </p>
-          <p className="mt-6 text-sm font-medium text-slate-300 sm:text-base">
+          <p className="mt-4 text-xs font-medium text-slate-300 sm:text-sm md:text-base">
             📍 {profile.location}
           </p>
-          <div className="mt-10 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap gap-2 sm:gap-3">
             <button
               onClick={() => setShowResumePreview(true)}
-              className="inline-flex items-center justify-center rounded-xl bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-lg transition hover:bg-slate-100"
+              className="inline-flex items-center justify-center rounded-lg sm:rounded-xl bg-white px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-semibold text-slate-900 shadow-lg transition hover:bg-slate-100"
             >
               Preview resume
             </button>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center rounded-xl border border-white/30 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-lg sm:rounded-xl border border-white/30 bg-white/5 px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/10"
             >
               Contact me
             </a>
