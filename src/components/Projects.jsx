@@ -29,10 +29,6 @@ export default function Projects() {
         >
           Projects
         </h2>
-        <p className="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">
-          Selected work samples—link each card to case studies or repos when ready.
-        </p>
-
         <div className="mt-12 grid items-start gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => {
             const isExpanded = expandedProjectId === project.id
