@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { projects } from '../data/content'
+import ProjectPreview from './ProjectPreview'
 
 export default function Projects() {
   const [expandedProjectId, setExpandedProjectId] = useState(null)
+  const [previewProject, setPreviewProject] = useState(null)
 
   const toggleExpand = (id) => {
     setExpandedProjectId((prev) => (prev === id ? null : id))
@@ -58,11 +60,38 @@ export default function Projects() {
                 >
                   {isExpanded ? 'Show less ↑' : 'View details →'}
                 </button>
+                
+                {/* Preview and Download Buttons */}
+                <div className="mt-4 flex gap-3">
+                  <button
+                    onClick={() => setPreviewProject(project)}
+                    className="flex-1 inline-flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[var(--color-accent)]/10 text-sm font-semibold text-[var(--color-accent)] hover:bg-[var(--color-accent)]/20 transition"
+                  >
+                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                    </svg>
+                    Preview
+                  </button>
+                  <a
+                    href={`/${project.pdf}`}
+                    download={project.pdf}
+                    className="flex-1 inline-flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-sm font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600 transition"
+                  >
+                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    Download
+                  </a>
+                </div>
               </article>
             )
           })}
         </div>
       </div>
+      
+      {/* Project Preview Modal */}
+      <ProjectPreview isOpen={!!previewProject} onClose={() => setPreviewProject(null)} project={previewProject} />
     </section>
   )
 }

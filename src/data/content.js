@@ -97,6 +97,7 @@ export const projects = [
     excerpt: 'Developed predictive models to identify high-probability customers based on behavioral and transaction data.',
     description:
       'Developed predictive models to identify high-probability customers based on behavioral and transaction data. Compared multiple models (Neural Network, K-NN, Decision Tree, Naïve Bayes) to evaluate prediction accuracy. Applied ROC and AUC analysis to assess model performance in customer classification. Used lift and gain analysis to identify high-value customer segments for targeted marketing. Demonstrated how predictive insights can improve campaign targeting and marketing ROI.',
+    pdf: 'Customer Purchase Behavior Prediction (RapidMiner).pdf',
     href: '#',
   },
   {
@@ -106,6 +107,7 @@ export const projects = [
     excerpt: 'Built interactive dashboards to analyze sales and profit trends across products, regions, and market size.',
     description:
       'Built interactive dashboards to analyze sales and profit trends across products, regions, and market size. Identified differences in product performance between small and large markets.Analyzed relationship between sales volume and profitability to support pricing and product decisions.Detected underperforming products and regions contributing to negative margins.Provided insights to support market segmentation and product strategy optimization',
+    pdf: 'Sales & Profit Analysis Dashboard (Tableau).pdf',
     href: '#',
   },
   {
@@ -115,6 +117,7 @@ export const projects = [
     excerpt: 'Conducted statistical analysis to evaluate factors influencing customer satisfaction and behavior.',
     description:
       'Conducted statistical analysis to evaluate factors influencing student satisfaction and behavior.Applied hypothesis testing (t-tests, ANOVA, chi-square) to identify significant differences across groups.Analyzed relationships between demographic variables and satisfaction outcomes.Evaluated trends over time to understand changes in consumer sentiment.Interpreted results to generate insights relevant for decision-making and strategy',
+    pdf: 'Consumer Behavior & Satisfaction Analysis (SPSS).pdf',
     href: '#',
   },
   {
@@ -124,6 +127,7 @@ export const projects = [
     excerpt: 'Designed and evaluated a digital marketing campaign across Google Ads, Facebook Ads, and influencer marketing.',
     description:
       'Designed and evaluated a digital marketing campaign using Google Ads, Facebook Ads, and influencer marketing.Analyzed campaign performance using key metrics such as impressions, CTR, CPC, and conversions.Identified audience segments and high-performing keywords driving engagement and conversions.Assessed effectiveness of different content formats, with video content showing higher engagement.Recommended optimization strategies including retargeting, A/B testing, and budget reallocation',
+    pdf: 'Multi-Channel Marketing Campaign Analytics (Google Ads & Social Media).pdf',
     href: '#',
   },
   {
@@ -133,6 +137,7 @@ export const projects = [
     excerpt: 'Analyzed social media performance across multiple platforms and conducted competitor benchmarking.',
     description:
       'Analyzed social media performance across multiple platforms to evaluate engagement patterns and audience behavior. Conducted competitor benchmarking to identify differences in content strategy and engagement outcomes.Identified high-performing content types (e.g., promotional videos, image-based posts) and optimal posting times.Evaluated audience interaction metrics (likes, shares, comments, views) to understand content effectiveness.Provided data-driven recommendations to improve content strategy and increase audience engagement',
+    pdf: 'Social Media Analytics & Competitor Performance Analysis.pdf',
     href: '#',
   },  
 ]
