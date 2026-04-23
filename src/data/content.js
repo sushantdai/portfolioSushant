@@ -144,6 +144,13 @@ export const projects = [
 
 export const blogPosts = [
   {
+    date: 'Thursday, 23 April 2026',
+    title: 'Life: The Most Underrated Teacher',
+    excerpt:
+      'Life rarely announces its lessons in advance. It doesn\'t follow a syllabus, it doesn\'t warn you before a test, and it certainly doesn\'t wait for you to feel ready. Yet, in its quiet, unpredictable way, it teaches some of the most profound truths we\'ll ever learn.',
+    href: 'https://sushantbhatta7.blogspot.com/2026/04/life-most-underrated-teacher.html',
+  },
+  {
     date: 'Sunday, 22 March 2026',
     title: 'When Life Happens, The Books I Keep Coming Back To',
     excerpt:
