@@ -59,23 +59,23 @@ export const skills = [
 export const experience = [
    {
     company: 'Golden City Wholesale LLC',
-    role: 'Sales and Social Media Marketing Intern',
+    role: 'Marketing Analyst & Digital Campaign Specialist Intern',
     period: '2025 — 2026',
     summary: [
-      'Analyzed campaign performance (CTR, conversions, engagement), improving engagement by 25%',
-      'Identified targeting and messaging gaps; optimized content strategy across platforms',
-      'Built structured reports and dashboards to support marketing decisions.'
+      'Analyzed CTR, reach, impressions, and conversions across 20+ accounts, driving a 25% engagement lift through weekly data-backed targeting and content optimizations',
+      'Surfaced 3 competitive positioning gaps via market research and delivered management-ready reports adopted directly into Q3 go-to-market strategy',
+      'Built 10+ KPI dashboards and 20+ performance reports translating complex campaign analytics into clear, actionable stakeholder recommendations.'
     ]
   },
    {
     company: 'Umanga Nepal',
-    role: 'Program Coordinator',
+    role: ' Marketing & Communications Coordinator',
     period: '2021 — 2023',
     type: 'Full time',
     summary:[
-      'Led 10+ initiatives (500+ participants), increasing engagement by 20%',
-      'Conducted behavioral and feedback analysis to identify participation gaps',
-      'Improved outreach strategy, contributing to 40% growth in reach'
+      'Coordinated 10+ programs for 500+ participants, managing logistics, scheduling, collateral distribution, and follow-up communications with partners, sponsors, and donors',
+      'Produced all content including newsletters, email campaigns, flyers, social posts, and website updates across Facebook, Instagram, Twitter, and YouTube with full brand consistency',
+      'Grew digital audience reach 40% and satisfaction scores 20% through monthly KPI tracking, analytics-driven content iteration, and targeted outreach improvements'
     ]
   },
   {
@@ -83,9 +83,9 @@ export const experience = [
     role: 'Data Specialist',
     period: '2019 — 2023',
     type: 'Part time',
-    summary:['Processed and validated 10M+ records with <1% error rate',
-'Improved data quality workflows and dataset structure for analytics use',
-'Enabled faster and more reliable downstream analysis'
+    summary:['Collected, filtered, and validated 10M+ structured records at sub-1% error rate across client-facing pipelines used for downstream business analytics',
+'Trained 30+ team members on QA and validation workflows, standardizing documentation that improved team throughput and consistency',
+'Supported reliable data infrastructure enabling accurate, timely reporting and decision-making across multiple client accounts simultaneously'
 ] 
   },
 ]
