@@ -8,7 +8,7 @@ import { profile } from '../data/content'
 const emailJsConfig = {
   publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'srSvJsmYj1BeYtl4d',
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_c76mbzr',
-  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_dquo21',
+  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_rb4c5ih',
 }
 
 emailjs.init(emailJsConfig.publicKey)
