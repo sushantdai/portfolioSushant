@@ -29,7 +29,7 @@ export const carouselSlides = [
 export const highlights = [
   { value: '4+', label: 'Years in Analytics & Marketing Experience', sub: 'End-to-end analysis • Data → decision' },
   { value: '10+', label: 'Campaigns & Data Projects', sub: 'From analysis → business decisions' },
-  { value: '10+', label: 'Analytics Tools & Platforms', sub: 'SQL • Tableau • SPSS • Power BI • R' },
+  { value: '10+', label: 'Analytics Tools & Platforms', sub: 'SQL • Tableau • SPSS • Power BI ' },
   { value: '180% ROI', label: '+25–40% Engagement Growth', sub: '10M+ records analyzed (<1% error)' },
 ]
 
@@ -57,36 +57,36 @@ export const skills = [
 ]
 
 export const experience = [
-   {
+  {
     company: 'Golden City Wholesale LLC',
     role: 'Marketing Analyst & Digital Campaign Specialist Intern',
     period: '2025 — 2026',
     summary: [
-      'Analyzed CTR, reach, impressions, and conversions across 20+ accounts, driving a 25% engagement lift through weekly data-backed targeting and content optimizations',
-      'Surfaced 3 competitive positioning gaps via market research and delivered management-ready reports adopted directly into Q3 go-to-market strategy',
-      'Built 10+ KPI dashboards and 20+ performance reports translating complex campaign analytics into clear, actionable stakeholder recommendations.'
+      'Analyzed CTR, reach, impressions, and conversions across 30–40 B2B accounts, driving a 25% customer retention improvement through weekly data-backed targeting and content optimizations',
+      'Surfaced 3 competitive positioning gaps via market research and delivered management-ready reports for leadership review',
+      'Built recurring KPI dashboards and performance reports translating complex campaign analytics into clear, actionable stakeholder recommendations.'
     ]
   },
-   {
+  {
     company: 'Umanga Nepal',
     role: ' Marketing & Communications Coordinator',
     period: '2021 — 2023',
     type: 'Full time',
-    summary:[
+    summary: [
       'Coordinated 10+ programs for 500+ participants, managing logistics, scheduling, collateral distribution, and follow-up communications with partners, sponsors, and donors',
       'Produced all content including newsletters, email campaigns, flyers, social posts, and website updates across Facebook, Instagram, Twitter, and YouTube with full brand consistency',
-      'Grew digital audience reach 40% and satisfaction scores 20% through monthly KPI tracking, analytics-driven content iteration, and targeted outreach improvements'
+      'Grew digital audience reach 40% through monthly KPI tracking, analytics-driven content iteration, and targeted outreach improvements'
     ]
   },
   {
     company: 'Cloud Factory',
     role: 'Data Specialist',
     period: '2019 — 2023',
-    type: 'Part time',
-    summary:['Collected, filtered, and validated 10M+ structured records at sub-1% error rate across client-facing pipelines used for downstream business analytics',
-'Trained 30+ team members on QA and validation workflows, standardizing documentation that improved team throughput and consistency',
-'Supported reliable data infrastructure enabling accurate, timely reporting and decision-making across multiple client accounts simultaneously'
-] 
+    summary: [
+      'Collected, filtered, and validated 10M+ structured records at sub-1% error rate across client-facing pipelines used for downstream business analytics',
+      'Trained 30+ team members on QA and validation workflows, standardizing documentation that improved team throughput and consistency',
+      'Supported reliable data infrastructure enabling accurate, timely reporting and decision-making across multiple client accounts simultaneously'
+    ]
   },
 ]
 export const projects = [
@@ -199,8 +199,7 @@ export const researchBackground = {
       title: 'Psychological Testing & Assessment',
       period: '2020–2022',
       items: [
-        'ABBPS, REIT, KNPI, BDI-II, WAT, WAPIS, RPM, 16PF, ANDI, Differential Aptitude Test',
-        '10-instrument battery spanning personality, EI, cognition, adjustment',
+        'Ten-instrument battery spanning personality (16PF, ABBPS), cognitive ability (RPM, Differential Aptitude Test), emotional intelligence (WAPIS), and clinical/adjustment screening (BDI-II, REIT, KNPI, WAT, ANDI)',
       ],
     },
     {
@@ -224,3 +223,4 @@ export const researchBackground = {
     },
   ],
 }
+

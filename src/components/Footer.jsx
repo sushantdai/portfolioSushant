@@ -22,12 +22,13 @@ export default function Footer() {
             <a href="#experience" className="hover:text-white">
               Experience
             </a>
-            <a href="#projects" className="hover:text-white">
-              Projects
-            </a>
             <a href="#research-background" className="hover:text-white">
               Research
             </a>
+            <a href="#projects" className="hover:text-white">
+              Projects
+            </a>
+            
             <a href="#blog" className="hover:text-white">
               Blog
             </a>
