@@ -199,7 +199,7 @@ export const researchBackground = {
       title: 'Psychological Testing & Assessment',
       period: '2020–2022',
       items: [
-        'Ten-instrument battery spanning personality (16PF, ABBPS), cognitive ability (RPM, Differential Aptitude Test), emotional intelligence (WAPIS), and clinical/adjustment screening (BDI-II, REIT, KNPI, WAT, ANDI)',
+        'Ten-instrument battery spanning personality (16PF, ABBPS), cognitive ability (RPM, Differential Aptitude Test, WAPIS), emotional intelligence (REIT), and clinical/adjustment screening (BDI-II, KNPI, WAT, ANDI)',
       ],
     },
     {
