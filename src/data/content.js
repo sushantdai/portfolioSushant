@@ -34,7 +34,7 @@ export const highlights = [
 ]
 
 export const aboutParagraphs = [
-  'I am a marketing analytics and research-focused professional with experience in consumer behavior analysis, campaign performance evaluation, and data-driven decision-making. ',
+  'I am a marketing analytics and research-focused professional with experience in consumer behavior analysis, campaign performance evaluation, and data-driven decision making. ',
   'My work centers on understanding how users interact with content, identifying patterns in engagement, and translating data into actionable marketing insights. ',
   'I have applied analytical methods across projects involving predictive modeling, customer segmentation, digital campaign performance, and social media analytics, using tools such as Tableau, SQL, RapidMiner, SPSS, and Google Ads. My approach combines statistical analysis with marketing context to support strategic decisions.',
 ]
@@ -48,7 +48,7 @@ export const skills = [
   },
   {
     title: 'Data & Tools',
-    items: ['SQL', 'Tableau / Power BI', 'Excel (Advanced)', 'Google Analytics'],
+    items: ['SQL', 'Tableau / Power BI', 'Excel (Advanced)', 'GA4'],
   },
   {
     title: 'Business Impact',
