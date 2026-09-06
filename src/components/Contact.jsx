@@ -14,6 +14,7 @@ export default function Contact() {
   const [error, setError] = useState(null)
   const [formData, setFormData] = useState({
     name: '',
+    email: '',
     phone: '',
     message: ''
   })
@@ -38,13 +39,14 @@ export default function Contact() {
         {
           to_email: 'sushantbhatta7@gmail.com',
           from_name: formData.name,
-          from_email: formData.name, // Will be replaced by EmailJS with reply-to
+          from_email: formData.email,
+          reply_to: formData.email,
           phone: formData.phone || 'Not provided',
           message: formData.message
         }
       )
       setSent(true)
-      setFormData({ name: '', phone: '', message: '' })
+      setFormData({ name: '', email: '', phone: '', message: '' })
       // Reset success message after 5 seconds
       setTimeout(() => setSent(false), 5000)
     } catch (err) {
@@ -87,6 +89,21 @@ export default function Contact() {
                 value={formData.name}
                 onChange={handleChange}
                 className="mt-1 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none ring-[var(--color-accent)]/0 transition focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-accent)]/30 dark:border-slate-600 dark:bg-slate-900 dark:text-white"
+              />
+            </div>
+            <div>
+              <label htmlFor="contact-email" className="block text-sm font-medium text-slate-700 dark:text-slate-300">
+                Email
+              </label>
+              <input
+                id="contact-email"
+                name="email"
+                type="email"
+                required
+                autoComplete="email"
+                value={formData.email}
+                onChange={handleChange}
+                className="mt-1 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-accent)]/30 dark:border-slate-600 dark:bg-slate-900 dark:text-white"
               />
             </div>
             <div>
