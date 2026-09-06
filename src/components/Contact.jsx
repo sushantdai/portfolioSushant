@@ -5,8 +5,13 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { profile } from '../data/content'
 
-// Initialize EmailJS
-emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+const emailJsConfig = {
+  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'srSvJsmYj1BeYtl4d',
+  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_c76mbzr',
+  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_dquo21',
+}
+
+emailjs.init(emailJsConfig.publicKey)
 
 export default function Contact() {
   const [sent, setSent] = useState(false)
@@ -34,8 +39,8 @@ export default function Contact() {
 
     try {
       await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        emailJsConfig.serviceId,
+        emailJsConfig.templateId,
         {
           to_email: 'sushantbhatta7@gmail.com',
           from_name: formData.name,
