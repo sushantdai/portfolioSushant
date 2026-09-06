@@ -172,3 +172,55 @@ export const blogPosts = [
     href: 'https://sushantbhatta7.blogspot.com/2026/01/',
   },
 ]
+
+export const researchBackground = {
+  intro: [
+    "During my Post Graduate Diploma in Counseling Psychology, I completed a structured practicum spanning individual counseling casework, a WHO-designed intervention protocol, and standardized psychological assessment. Alongside it, I completed supervised field placements across ten mental-health and social-service institutions in Kathmandu, Nepal.",
+    "I'm applying that same rigor to questions of behavior and well-being beyond the therapy room, including how people make decisions, engage at work, and change over time.",
+  ],
+  experience: [
+    {
+      title: 'Individual Counseling Casework',
+      period: '2021–2022',
+      items: [
+        'Person-centered therapy, CBT techniques, cognitive restructuring, systematic desensitization',
+        'Session-by-session outcome tracking with standardized measures',
+      ],
+    },
+    {
+      title: 'WHO Problem Management Plus (PM+)',
+      period: '2021',
+      items: [
+        'Delivered the WHO 5-session transdiagnostic intervention protocol',
+        'Outcomes tracked via PSYCHLOPS and WHODAS 2.0',
+      ],
+    },
+    {
+      title: 'Psychological Testing & Assessment',
+      period: '2020–2022',
+      items: [
+        'ABBPS, REIT, KNPI, BDI-II, WAT, WAPIS, RPM, 16PF, ANDI, Differential Aptitude Test',
+        '10-instrument battery spanning personality, EI, cognition, adjustment',
+      ],
+    },
+    {
+      title: 'Supervised Field Placements',
+      period: '2021',
+      items: [
+        '10 site visits: crisis management, LGBTQ+ advocacy, law enforcement, child welfare, women\u2019s rights, peace studies, addiction treatment, geriatric care, psychiatric care',
+      ],
+    },
+  ],
+  references: [
+    {
+      title: 'Effectiveness of Person-Centered Therapy',
+      href: '/documents/person-centered-therapy.pdf',
+      note: 'term paper',
+    },
+    {
+      title: 'Depression Among College Students in Nepal',
+      href: '/documents/depression-nepal.pdf',
+      note: 'term paper',
+    },
+  ],
+}

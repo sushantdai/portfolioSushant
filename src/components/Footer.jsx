@@ -25,6 +25,9 @@ export default function Footer() {
             <a href="#projects" className="hover:text-white">
               Projects
             </a>
+            <a href="#research-background" className="hover:text-white">
+              Research
+            </a>
             <a href="#blog" className="hover:text-white">
               Blog
             </a>

@@ -4,6 +4,7 @@ import Highlights from './components/Highlights'
 import About from './components/About'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
+import ResearchBackground from './components/ResearchBackground'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -18,6 +19,7 @@ function App() {
         <Highlights />
         <About />
         <Experience />
+        <ResearchBackground />
         <Projects />
         <Blog />
         <Contact />
