@@ -163,8 +163,8 @@ export default function Contact() {
               Let&apos;s connect
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-              I typically respond within one business day. Whether it&apos;s a full-time role, a short consulting
-              engagement, or a quick question—feel free to reach out directly.
+              I typically respond within one business day. Whether it&apos;s a full-time role, a research conversation,
+              or a quick question, feel free to reach out directly.
             </p>
             <ul className="mt-8 space-y-4">
               <li>

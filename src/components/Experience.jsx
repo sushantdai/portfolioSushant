@@ -15,7 +15,7 @@ export default function Experience() {
           Experience
         </h2>
         <p className="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">
-          Roles where I owned requirements, alignment, and delivery support.
+          Roles across analytics, marketing, and mental health programs.
         </p>
 
         <ol className="mt-12 space-y-6">

@@ -4,7 +4,7 @@ export const profile = {
   name: 'Sushant Bhatta',
   title: 'Marketing Analytics & Data Analyst',
   tagline:
-    'Driving data-backed marketing decisions that improve ROI, engagement, and customer targeting. Delivered 180% campaign ROI, 25–40% engagement growth, and insights from 10M+ records. Skilled in campaign analytics, customer segmentation, statistical modeling, and dashboards.',
+    'I turn data into decisions and care about the why behind the numbers. I converted 23 of 44 B2B leads into recurring customers, drove 463 conversions at $0.29 CPC in a graduate capstone campaign, and validated 10M+ records at under 1% error. Trained in marketing analytics and counseling psychology.',
   location: 'Open to remote · hybrid · on-site',
   email: 'sushantbhatta7@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sushantbhatta7/',
@@ -30,13 +30,17 @@ export const highlights = [
   { value: '4+', label: 'Years in Analytics & Marketing Experience', sub: 'End-to-end analysis • Data → decision' },
   { value: '10+', label: 'Campaigns & Data Projects', sub: 'From analysis → business decisions' },
   { value: '10+', label: 'Analytics Tools & Platforms', sub: 'SQL • Tableau • SPSS • Power BI ' },
-  { value: '180% ROI', label: '+25–40% Engagement Growth', sub: '10M+ records analyzed (<1% error)' },
+  {
+    value: '52%',
+    label: 'lead-to-customer conversion (23 of 44 B2B leads)',
+    sub: '$0.29 CPC on 463 conversions (capstone campaign) • 10M+ records analyzed (<1% error)',
+  },
 ]
 
 export const aboutParagraphs = [
-  'I am a marketing analytics and research-focused professional with experience in consumer behavior analysis, campaign performance evaluation, and data-driven decision making. ',
-  'My work centers on understanding how users interact with content, identifying patterns in engagement, and translating data into actionable marketing insights. ',
-  'I have applied analytical methods across projects involving predictive modeling, customer segmentation, digital campaign performance, and social media analytics, using tools such as Tableau, SQL, RapidMiner, SPSS, and Google Ads. My approach combines statistical analysis with marketing context to support strategic decisions.',
+  "I turn data into decisions, and I'm as interested in the why behind the numbers as the numbers themselves. My work spans market research, campaign execution, and statistical analysis, using SQL, Tableau, Power BI, SPSS, GA4, and RapidMiner.",
+  'At Golden City Wholesale, I generated 44 B2B leads and converted 23 into recurring customers (52%). In my M.S. in Marketing Analytics & Insights at Wright State University (GPA 3.80), my graduate capstone campaign drove 463 conversions from 3,413 clicks at $0.29 CPC on a $1,897 budget.',
+  "Earlier, I trained in counseling psychology and coordinated mental wellbeing programs in Nepal. That's where my interest in behavior comes from: why people act the way the data says they do.",
 ]
 
 
@@ -59,34 +63,50 @@ export const skills = [
 export const experience = [
   {
     company: 'Golden City Wholesale LLC',
-    role: 'Marketing Analyst & Digital Campaign Specialist Intern',
-    period: '2025 — 2026',
+    role: 'Marketing & Business Development Analyst',
+    period: 'Aug 2026 — Present',
+    type: 'Full time',
     summary: [
-      'Analyzed CTR, reach, impressions, and conversions across 30–40 B2B accounts, driving a 25% customer retention improvement through weekly data-backed targeting and content optimizations',
-      'Surfaced 3 competitive positioning gaps via market research and delivered management-ready reports for leadership review',
-      'Built recurring KPI dashboards and performance reports translating complex campaign analytics into clear, actionable stakeholder recommendations.'
-    ]
+      'Track campaign performance in GA4 and email/social platforms and report on marketing and account-level KPIs',
+      'Build Power BI dashboards for account-level reporting',
+      'Support lead generation and pipeline tracking',
+      'Run market and competitor research',
+    ],
+  },
+  {
+    company: 'Golden City Wholesale LLC',
+    role: 'Sales and Social Media Marketing Intern',
+    period: 'May 2025 — Apr 2026',
+    type: 'Internship',
+    summary: [
+      'Generated 44 B2B leads through Facebook Ads and WhatsApp outreach and converted 23 to recurring customers (52%), tracked in HubSpot CRM',
+      'Built Power BI, Looker Studio, and SQL dashboards across 30–40 B2B accounts',
+      'Identified 3 competitive positioning gaps through market research and delivered management-ready reports',
+      'Ran A/B tests and reported on GA4 and Google Business Profile metrics',
+    ],
   },
   {
     company: 'Umanga Nepal',
-    role: ' Marketing & Communications Coordinator',
+    role: 'Program Coordinator & Psycho-social Counselor',
     period: '2021 — 2023',
-    type: 'Full time',
     summary: [
-      'Coordinated 10+ programs for 500+ participants, managing logistics, scheduling, collateral distribution, and follow-up communications with partners, sponsors, and donors',
-      'Produced all content including newsletters, email campaigns, flyers, social posts, and website updates across Facebook, Instagram, Twitter, and YouTube with full brand consistency',
-      'Grew digital audience reach 40% through monthly KPI tracking, analytics-driven content iteration, and targeted outreach improvements'
-    ]
+      'Coordinated 10+ mental wellbeing programs for 500+ participants, managing budgets, logistics, scheduling, recruitment, follow-up with partners, sponsors, and donors, and post-program evaluation reports',
+      "Produced newsletters, email campaigns, flyers, and social posts, and built and launched the organization's website",
+      'Grew organic social reach 40% through monthly KPI tracking and analytics-driven content iteration',
+      'Wrote funding, sponsorship, and program proposals, and designed participant surveys analyzed in SPSS',
+      'Delivered individual counseling online and ran mental health awareness programs, working alongside other mental health professionals',
+    ],
   },
   {
-    company: 'Cloud Factory',
+    company: 'CloudFactory Nepal (Sprout Technology Service Pvt. Ltd.)',
     role: 'Data Specialist',
     period: '2019 — 2023',
+    type: 'Part-time',
     summary: [
-      'Collected, filtered, and validated 10M+ structured records at sub-1% error rate across client-facing pipelines used for downstream business analytics',
-      'Trained 30+ team members on QA and validation workflows, standardizing documentation that improved team throughput and consistency',
-      'Supported reliable data infrastructure enabling accurate, timely reporting and decision-making across multiple client accounts simultaneously'
-    ]
+      'Led a team of up to 30, assigning work, reviewing output, running QA checks, training new members, and reporting to management',
+      'Validated structured datasets exceeding 10M records at under 1% error (QA-verified) using Advanced Excel and Google Sheets',
+      'Maintained data governance standards and client confidentiality across company-wide information',
+    ],
   },
 ]
 export const projects = [
@@ -175,7 +195,7 @@ export const blogPosts = [
 
 export const researchBackground = {
   intro: [
-    "During my Post Graduate Diploma in Counseling Psychology, I completed a structured practicum spanning individual counseling casework, a WHO-designed intervention protocol, and standardized psychological assessment. Alongside it, I completed supervised field placements across ten mental-health and social-service institutions in Kathmandu, Nepal.",
+    "During my Post Graduate Diploma in Counseling Psychology, I completed a structured practicum spanning individual counseling casework, a WHO-designed intervention protocol, and standardized psychological assessment. Alongside it, I completed supervised field visits to ten mental-health and social-service institutions in Kathmandu, Nepal.",
     "I'm applying that same rigor to questions of behavior and well-being beyond the therapy room, including how people make decisions, engage at work, and change over time.",
   ],
   experience: [
@@ -196,6 +216,14 @@ export const researchBackground = {
       ],
     },
     {
+      title: 'Professional Counseling Practice',
+      period: '2021–2023',
+      items: [
+        'Psycho-social Counselor, Umanga Nepal (intern May–Jul 2021, then Program Coordinator & Psycho-social Counselor)',
+        'Delivered individual counseling online and ran mental health awareness programs',
+      ],
+    },
+    {
       title: 'Psychological Testing & Assessment',
       period: '2020–2022',
       items: [
@@ -203,7 +231,7 @@ export const researchBackground = {
       ],
     },
     {
-      title: 'Supervised Field Placements',
+      title: 'Supervised Field Visits',
       period: '2021',
       items: [
         '10 site visits: crisis management, LGBTQ+ advocacy, law enforcement, child welfare, women\u2019s rights, peace studies, addiction treatment, geriatric care, psychiatric care',
@@ -212,14 +240,19 @@ export const researchBackground = {
   ],
   references: [
     {
+      title: 'Social Media and Technology Dilemma',
+      href: '#',
+      note: 'Published article, Journal of Discursive Psychology, Department of Philosophy and Psychology, Tri-Chandra Campus, Tribhuvan University (2021)',
+    },
+    {
       title: 'Effectiveness of Person-Centered Therapy',
       href: '/documents/person-centered-therapy.pdf',
-      note: 'term paper',
+      note: 'literature review (PGD coursework)',
     },
     {
       title: 'Depression Among College Students in Nepal',
       href: '/documents/depression-nepal.pdf',
-      note: 'term paper',
+      note: 'literature review (PGD coursework)',
     },
   ],
 }
