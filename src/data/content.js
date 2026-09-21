@@ -39,7 +39,7 @@ export const highlights = [
 
 export const aboutParagraphs = [
   "I turn data into decisions, and I'm as interested in the why behind the numbers as the numbers themselves. My work spans market research, campaign execution, and statistical analysis, using SQL, Tableau, Power BI, SPSS, GA4, and RapidMiner.",
-  'At Golden City Wholesale, I generated 44 B2B leads and converted 23 into recurring customers (52%). In my M.S. in Marketing Analytics & Insights at Wright State University (GPA 3.80), my graduate capstone campaign drove 463 conversions from 3,413 clicks at $0.29 CPC on a $1,897 budget.',
+  'At Golden City Wholesale, I generated 44 B2B leads and converted 23 into recurring customers (52%). In my M.S. in Marketing Analytics & Insights at Wright State University (GPA 3.80), my graduate project campaign drove 463 conversions from 3,413 clicks at $0.29 CPC on a $1,897 budget.',
   "Earlier, I trained in counseling psychology and coordinated mental wellbeing programs in Nepal. That's where my interest in behavior comes from: why people act the way the data says they do.",
 ]
 
@@ -241,7 +241,7 @@ export const researchBackground = {
   references: [
     {
       title: 'Social Media and Technology Dilemma',
-      href: '#',
+      href: '/documents/Social%20Media%20and%20Technology%20Dilemma%20Smarika-2079.pdf',
       note: 'Published article, Journal of Discursive Psychology, Department of Philosophy and Psychology, Tri-Chandra Campus, Tribhuvan University (2021)',
     },
     {
