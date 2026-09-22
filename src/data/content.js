@@ -4,7 +4,7 @@ export const profile = {
   name: 'Sushant Bhatta',
   title: 'Marketing Analytics & Data Analyst',
   tagline:
-    'I turn data into decisions and care about the why behind the numbers. I converted 23 of 44 B2B leads into recurring customers, drove 463 conversions at $0.29 CPC in a graduate capstone campaign, and validated 10M+ records at under 1% error. Trained in marketing analytics and counseling psychology.',
+    'I turn data into decisions and care about the why behind the numbers. A 52% lead conversion rate, a sub-$0.30 cost per conversion, and 10M+ records validated at under 1% error, across campaigns, dashboards, and research projects. Trained in marketing analytics and counseling psychology.',
   location: 'Open to remote · hybrid · on-site',
   email: 'sushantbhatta7@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sushantbhatta7/',
@@ -38,9 +38,9 @@ export const highlights = [
 ]
 
 export const aboutParagraphs = [
-  "I turn data into decisions, and I'm as interested in the why behind the numbers as the numbers themselves. My work spans market research, campaign execution, and statistical analysis, using SQL, Tableau, Power BI, SPSS, GA4, and RapidMiner.",
-  'At Golden City Wholesale, I generated 44 B2B leads and converted 23 into recurring customers (52%). In my M.S. in Marketing Analytics & Insights at Wright State University (GPA 3.80), my graduate project campaign drove 463 conversions from 3,413 clicks at $0.29 CPC on a $1,897 budget.',
-  "Earlier, I trained in counseling psychology and coordinated mental wellbeing programs in Nepal. That's where my interest in behavior comes from: why people act the way the data says they do.",
+  "My work spans market research, campaign execution, and statistical analysis, using SQL, Tableau, Power BI, SPSS, GA4, and RapidMiner. Most of it comes down to the same question: what's actually driving the number, not just what the number says.",
+  'At Golden City Wholesale, that meant testing outreach channels until the lead-to-customer rate held up under scrutiny. In my M.S. capstone at Wright State University (GPA 3.80), it meant reallocating ad spend toward the keywords actually converting, which brought the cost per conversion under $0.30.',
+  "Earlier, I trained in counseling psychology and coordinated mental wellbeing programs in Nepal. That's where the underlying interest comes from: not just what people do, but why.",
 ]
 
 
@@ -228,6 +228,14 @@ export const researchBackground = {
       period: '2020–2022',
       items: [
         'Ten-instrument battery spanning personality (16PF, ABBPS), cognitive ability (RPM, Differential Aptitude Test, WAPIS), emotional intelligence (REIT), and clinical/adjustment screening (BDI-II, KNPI, WAT, ANDI)',
+      ],
+    },
+    {
+      title: 'Suicide Risk Assessment',
+      period: '2023',
+      items: [
+        'Completed "Counseling on Access to Lethal Means," Zero Suicide Institute',
+        'Covered risk assessment, safety planning, and means restriction counseling',
       ],
     },
     {
