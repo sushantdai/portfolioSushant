@@ -4,7 +4,7 @@ export const profile = {
   name: 'Sushant Bhatta',
   title: 'Marketing Analytics & Data Analyst',
   tagline:
-    'I turn data into decisions and care about the why behind the numbers. A 52% lead conversion rate, a sub-$0.30 cost per conversion, and 10M+ records validated at under 1% error, across campaigns, dashboards, and research projects. Trained in marketing analytics and counseling psychology.',
+    'I turn data into decisions and care about the why behind the numbers. A 52% lead-to-customer conversion rate (23 of 44 leads), 10M+ records validated at under 1% error, and hands-on work across campaigns, dashboards, and research projects. Trained in marketing analytics and counseling psychology.',
   location: 'Open to remote · hybrid · on-site',
   email: 'sushantbhatta7@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sushantbhatta7/',
@@ -27,19 +27,19 @@ export const carouselSlides = [
 ]
 
 export const highlights = [
-  { value: '4+', label: 'Years in Analytics & Marketing Experience', sub: 'End-to-end analysis • Data → decision' },
-  { value: '10+', label: 'Campaigns & Data Projects', sub: 'From analysis → business decisions' },
+  { value: '4+', label: 'Years in Analytics & Marketing Experience', sub: 'End-to-end analysis • Data → Decision' },
+  { value: '10+', label: 'Campaigns & Data Projects', sub: 'From Analysis → Business Decisions' },
   { value: '10+', label: 'Analytics Tools & Platforms', sub: 'SQL • Tableau • SPSS • Power BI ' },
   {
     value: '52%',
     label: 'lead-to-customer conversion (23 of 44 B2B leads)',
-    sub: '$0.29 CPC on 463 conversions (capstone campaign) • 10M+ records analyzed (<1% error)',
+    sub: '$1,897 budget managed, 463 conversions (project campaign) • 10M+ records analyzed (<1% error)',
   },
 ]
 
 export const aboutParagraphs = [
-  "My work spans market research, campaign execution, and statistical analysis, using SQL, Tableau, Power BI, SPSS, GA4, and RapidMiner. Most of it comes down to the same question: what's actually driving the number, not just what the number says.",
-  'At Golden City Wholesale, that meant testing outreach channels until the lead-to-customer rate held up under scrutiny. In my M.S. capstone at Wright State University (GPA 3.80), it meant reallocating ad spend toward the keywords actually converting, which brought the cost per conversion under $0.30.',
+  "My work spans customer relationship management, market research, campaign execution, and statistical analysis using Excel, QuickBooks reporting, SPSS, and GA4 day to day and in coursework, with SQL, Power BI, Tableau, and RapidMiner from graduate coursework and self-directed practice. Most of it comes down to the same question: what's actually driving the number, not just what the number says.",
+  'At Golden City Wholesale, that meant tracking which outreach channels converted best, landing a 52% lead-to-customer rate (23 of 44 leads). In my M.S. project at Wright State University (GPA 3.80), it meant our team adjusting keyword targeting across Google Search, Facebook Ads, and LinkedIn Ads based on performance, which drove 463 conversions over 51 days.',
   "Earlier, I trained in counseling psychology and coordinated mental wellbeing programs in Nepal. That's where the underlying interest comes from: not just what people do, but why.",
 ]
 
@@ -67,8 +67,7 @@ export const experience = [
     period: 'Aug 2026 — Present',
     type: 'Full time',
     summary: [
-      'Track campaign performance in GA4 and email/social platforms and report on marketing and account-level KPIs',
-      'Build Power BI dashboards for account-level reporting',
+      'Analyze QuickBooks sales reports to identify fast-moving SKUs, repeat buyers, and inventory trends, reporting on account-level KPIs',
       'Support lead generation and pipeline tracking',
       'Run market and competitor research',
     ],
@@ -79,10 +78,9 @@ export const experience = [
     period: 'May 2025 — Apr 2026',
     type: 'Internship',
     summary: [
-      'Generated 44 B2B leads through Facebook Ads and WhatsApp outreach and converted 23 to recurring customers (52%), tracked in HubSpot CRM',
-      'Built Power BI, Looker Studio, and SQL dashboards across 30–40 B2B accounts',
-      'Identified 3 competitive positioning gaps through market research and delivered management-ready reports',
-      'Ran A/B tests and reported on GA4 and Google Business Profile metrics',
+      'Generated 44 leads through Facebook ad campaigns and WhatsApp outreach, converting 23 to recurring customers (52% conversion rate)',
+      'Identified 3 competitive positioning gaps through market and competitor research, delivering management-ready reports',
+      'Tracked Google Business Profile metrics to inform outreach timing and content strategy',
     ],
   },
   {
@@ -90,11 +88,11 @@ export const experience = [
     role: 'Program Coordinator & Psycho-social Counselor',
     period: '2021 — 2023',
     summary: [
-      'Coordinated 10+ mental wellbeing programs for 500+ participants, managing budgets, logistics, scheduling, recruitment, follow-up with partners, sponsors, and donors, and post-program evaluation reports',
-      "Produced newsletters, email campaigns, flyers, and social posts, and built and launched the organization's website",
-      'Grew organic social reach 40% through monthly KPI tracking and analytics-driven content iteration',
-      'Wrote funding, sponsorship, and program proposals, and designed participant surveys analyzed in SPSS',
-      'Delivered individual counseling online and ran mental health awareness programs, working alongside other mental health professionals',
+      'Coordinated 10+ mental wellbeing programs for 500+ participants, managing budgets, logistics, scheduling, recruitment, and follow-up with partners, sponsors, and donors, including post-program evaluation reports',
+      "Produced newsletters, email campaigns, flyers, and social posts, and built and launched the organization's website on WordPress",
+      'Grew organic social reach 40% through ongoing KPI tracking and content iteration',
+      'Wrote funding, sponsorship, and program proposals, and designed participant surveys analyzed in Excel and Google Sheets',
+      'Delivered individual counseling online and ran mental health awareness programs alongside other mental health professionals',
     ],
   },
   {
@@ -103,8 +101,8 @@ export const experience = [
     period: '2019 — 2023',
     type: 'Part-time',
     summary: [
-      'Led a team of up to 30, assigning work, reviewing output, running QA checks, training new members, and reporting to management',
-      'Validated structured datasets exceeding 10M records at under 1% error (QA-verified) using Advanced Excel and Google Sheets',
+      'Led a team of 32 to 35, assigning work, reviewing output, running QA checks, training new members, and reporting to management',
+      'Validated structured datasets exceeding 10M records at under 1% error using Advanced Excel and Google Sheets',
       'Maintained data governance standards and client confidentiality across company-wide information',
     ],
   },

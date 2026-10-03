@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useTheme } from '../context/useTheme'
 
+const RESUME_URL = '/resume.pdf?v=20261003'
+
 const links = [
   { href: '#about', label: 'About' },
   { href: '#experience', label: 'Experience' },
@@ -77,7 +79,7 @@ export default function Navbar({ siteName }) {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href={RESUME_URL}
             download
             className="ml-2 rounded-lg bg-[var(--color-accent)] px-3 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-[var(--color-accent-hover)]"
           >
@@ -128,7 +130,7 @@ export default function Navbar({ siteName }) {
               </a>
             ))}
             <a
-              href="/resume.pdf"
+              href={RESUME_URL}
               download
               onClick={() => setOpen(false)}
               className="mt-2 rounded-lg bg-[var(--color-accent)] px-3 py-2.5 text-center text-sm font-semibold text-white"

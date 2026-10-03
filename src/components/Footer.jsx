@@ -1,5 +1,7 @@
 import { profile } from '../data/content'
 
+const RESUME_URL = '/resume.pdf?v=20261003'
+
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -35,7 +37,7 @@ export default function Footer() {
             <a href="#contact" className="hover:text-white">
               Contact
             </a>
-            <a href="/resume.pdf" download className="hover:text-white">
+            <a href={RESUME_URL} download className="hover:text-white">
               Resume
             </a>
             <a

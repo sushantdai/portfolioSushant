@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+const RESUME_URL = '/resume.pdf?v=20261003'
+
 export default function ResumePreview({ isOpen, onClose }) {
   const [isLoading, setIsLoading] = useState(true)
 
@@ -42,7 +44,7 @@ export default function ResumePreview({ isOpen, onClose }) {
             </div>
           )}
           <iframe
-            src="/resume.pdf"
+            src={RESUME_URL}
             className={`w-full h-full border-none ${isLoading ? 'hidden' : ''}`}
             title="Resume Preview"
             onLoad={() => setIsLoading(false)}
@@ -58,7 +60,7 @@ export default function ResumePreview({ isOpen, onClose }) {
             Close
           </button>
           <a
-            href="/resume.pdf"
+            href={RESUME_URL}
             download="Sushant_Bhatta_Resume.pdf"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[var(--color-accent)] text-sm font-semibold text-white hover:bg-[var(--color-accent-hover)] transition shadow-md"
           >
