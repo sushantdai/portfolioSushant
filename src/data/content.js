@@ -2,9 +2,9 @@
 
 export const profile = {
   name: 'Sushant Bhatta',
-  title: 'Marketing Analytics & Data Analyst',
+  title: 'Marketing Analytics | Data Analyst',
   tagline:
-    'I turn data into decisions and care about the why behind the numbers. A 52% lead-to-customer conversion rate (23 of 44 leads), 10M+ records validated at under 1% error, and hands-on work across campaigns, dashboards, and research projects. Trained in marketing analytics and counseling psychology.',
+    'I turn data into action by combining marketing analytics, business context, and research-driven thinking. From campaign performance to customer insights, I help teams understand what is working, why it matters, and what to do next.',
   location: 'Open to remote · hybrid · on-site',
   email: 'sushantbhatta7@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sushantbhatta7/',
@@ -38,9 +38,9 @@ export const highlights = [
 ]
 
 export const aboutParagraphs = [
-  "My work spans customer relationship management, market research, campaign execution, and statistical analysis using Excel, QuickBooks reporting, SPSS, and GA4 day to day and in coursework, with SQL, Power BI, Tableau, and RapidMiner from graduate coursework and self-directed practice. Most of it comes down to the same question: what's actually driving the number, not just what the number says.",
-  'At Golden City Wholesale, that meant tracking which outreach channels converted best, landing a 52% lead-to-customer rate (23 of 44 leads). In my M.S. project at Wright State University (GPA 3.80), it meant our team adjusting keyword targeting across Google Search, Facebook Ads, and LinkedIn Ads based on performance, which drove 463 conversions over 51 days.',
-  "Earlier, I trained in counseling psychology and coordinated mental wellbeing programs in Nepal. That's where the underlying interest comes from: not just what people do, but why.",
+  "My work spans customer relationship management, market research, campaign execution, and statistical analysis using Excel, QuickBooks reporting, SPSS, and GA4 in day-to-day work and coursework. I also build with SQL, Power BI, Tableau, and RapidMiner through graduate coursework and self-directed practice. Most of it comes down to the same question: what is actually driving the number, not just what the number says.",
+  'At Golden City Wholesale, that meant tracking which outreach channels converted best and achieving a 52% lead-to-customer conversion rate (23 of 44 leads). In my M.S. project at Wright State University (GPA 3.80), my team adjusted keyword targeting across Google Search, Facebook Ads, and LinkedIn Ads based on performance, driving 463 conversions over 51 days.',
+  "Earlier, I trained in counseling psychology and coordinated mental wellbeing programs in Nepal. That is where my underlying interest comes from: not just what people do, but why.",
 ]
 
 
@@ -67,9 +67,10 @@ export const experience = [
     period: 'Aug 2026 — Present',
     type: 'Full time',
     summary: [
-      'Analyze QuickBooks sales reports to identify fast-moving SKUs, repeat buyers, and inventory trends, reporting on account-level KPIs',
-      'Support lead generation and pipeline tracking',
-      'Run market and competitor research',
+      'Analyze QuickBooks sales reports to identify fast-moving SKUs, repeat buyers, and aged inventory, driving reorder and pre-season stocking decisions',
+      'Own retention outreach for a recurring base of 40 to 60 B2B accounts, deciding which to re-engage when new inventory arrives',
+      'Manage the Google Business Profile, tracking monthly engagement trends',
+      'Run market and competitor research for management',
     ],
   },
   {
@@ -79,8 +80,8 @@ export const experience = [
     type: 'Internship',
     summary: [
       'Generated 44 leads through Facebook ad campaigns and WhatsApp outreach, converting 23 to recurring customers (52% conversion rate)',
+      'Tracked lead performance and ROI in Excel against targets',
       'Identified 3 competitive positioning gaps through market and competitor research, delivering management-ready reports',
-      'Tracked Google Business Profile metrics to inform outreach timing and content strategy',
     ],
   },
   {
@@ -101,8 +102,8 @@ export const experience = [
     period: '2019 — 2023',
     type: 'Part-time',
     summary: [
-      'Led a team of 32 to 35, assigning work, reviewing output, running QA checks, training new members, and reporting to management',
-      'Validated structured datasets exceeding 10M records at under 1% error using Advanced Excel and Google Sheets',
+      'Validated and cleaned structured client datasets in Advanced Excel and Google Sheets alongside team members, within a team workload of 10M+ records held to a client-mandated error rate under 1%',
+      'Served as Team Captain for a 32 to 35 person team, assigning work, running QA checks, training new members, and reporting quality metrics to Team Leads',
       'Maintained data governance standards and client confidentiality across company-wide information',
     ],
   },
@@ -177,9 +178,9 @@ export const blogPosts = [
   },
   {
     date: 'Friday, 20 March 2026',
-    title: 'The 3 C That Are Slowly Killing Your Mind And How to Break Free',
+    title: 'The 3 C’s That Are Slowly Killing Your Mind — And How to Break Free',
     excerpt:
-      'There a monk who once studied at IIT Bombay, one of the most competitive institutions in the world and walked away from a promising career to dedicate his life to something far deeper.',
+      'There is a monk who once studied at IIT Bombay, one of the most competitive institutions in the world, and walked away from a promising career to dedicate his life to something far deeper.',
     href: 'https://sushantbhatta7.blogspot.com/2026/03/the-3-cs-that-are-slowly-killing-your.html',
   },
   {
